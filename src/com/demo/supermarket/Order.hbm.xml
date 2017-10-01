@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC   
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+      
+<hibernate-mapping>  
+    <class name="com.demo.supermarket.Order">  
+        <id name="orderID">  
+            <generator class="uuid"/>  
+        </id>  
+        <property name="receiverName"/>  
+        <property name="Phone"/>  
+        <property name="orderStatus"/>  
+        <property name="payTime"/>    
+        <property name="deliveryTime"/>  
+   	 	<property name="confirmTime"/>  
+    	<property name="Postcode"/>  
+    	<property name="Address"/>  
+    	<property name="creatTime"/>  
+    	<property name="userID"/>  
+    	<property name="sellerID"/>  
+    	<property name="shipCost"/>  
+    	<property name="allPrice"/>       
+    </class>  
+</hibernate-mapping> 
+
+
